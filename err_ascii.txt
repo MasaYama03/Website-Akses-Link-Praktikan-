@@ -1,0 +1,79 @@
+node : [31mfailed to 
+load config from C:\Us
+ers\yama\Digitalisasi 
+Web Link Penting\User 
+(2)\praktikan-web\vite
+.config.js[39m
+At line:1 char:1
++ node ./node_modules/
+vite/bin/vite.js 
+build > out.txt 2> 
+err.txt
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: ([31mfaile   
+ d to ....config.j    
+s[39m:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+[31merror during 
+build:
+Error [ERR_PACKAGE_PAT
+H_NOT_EXPORTED]: 
+Package subpath 
+'./internal' is not 
+defined by "exports" 
+in C:\Users\yama\Digit
+alisasi Web Link 
+Penting\User (2)\prakt
+ikan-web\node_modules\
+vite\package.json 
+imported from C:\Users
+\yama\Digitalisasi 
+Web Link Penting\User 
+(2)\praktikan-web\node
+_modules\@vitejs\plugi
+n-react\dist\index.js
+    at 
+exportsNotFound (node:
+internal/modules/esm/r
+esolve:322:10)
+    at 
+packageExportsResolve 
+(node:internal/modules
+/esm/resolve:670:9)
+    at packageResolve 
+(node:internal/modules
+/esm/resolve:856:14)
+    at moduleResolve (
+node:internal/modules/
+esm/resolve:946:18)
+    at defaultResolve 
+(node:internal/modules
+/esm/resolve:1188:11)
+    at ModuleLoader.de
+faultResolve (node:int
+ernal/modules/esm/load
+er:642:12)
+    at 
+#cachedDefaultResolve 
+(node:internal/modules
+/esm/loader:591:25)
+    at 
+ModuleLoader.resolve (
+node:internal/modules/
+esm/loader:574:38)
+    at ModuleLoader.ge
+tModuleJobForImport (n
+ode:internal/modules/e
+sm/loader:236:38)
+    at 
+ModuleJob._link (node:
+internal/modules/esm/m
+odule_job:130:49)[39m
