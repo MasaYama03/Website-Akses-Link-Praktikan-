@@ -21,6 +21,28 @@ Platform ini dirancang sebagai **pusat referensi (centralized hub)** untuk mempe
 - **Dynamic Content**: Manajemen link yang mudah dan terorganisir.
 - **Optimized for Speed**: Build tool menggunakan Vite 7 untuk performa maksimal.
 
+## 🔐 Manajemen Admin
+
+Project ini berfungsi sebagai **Frontend/Public-facing** site. Semua data link dan kategori dikelola melalui panel admin khusus yang berada di repositori terpisah:
+
+- **Admin Repository**: [Website-Link-Penting](https://github.com/MasaYama03/Website-Link-Penting.git)
+- **Fitur yang dapat diatur oleh Admin**:
+  - **Manajemen Kategori & Link**: 
+    - Mengatur kategori (nama, ikon, warna, urutan).
+    - Mengatur link (judul, URL, ikon, status aktif, urutan).
+    - **Sub Grouping**: Link dapat dikelompokkan ke dalam "Sub Group" (misalnya: Kelompok A, Kelompok B) untuk tampilan yang lebih rapi pada mode "Direct".
+  - **Hero Slideshow (Banner)**: 
+    - Upload gambar banner utama.
+    - **Granular Visibility**: Setiap gambar banner dapat diatur visibilitasnya: hanya untuk **Asisten**, hanya untuk **Praktikan**, atau **Keduanya (Both)**.
+    - Toggle On/Off Slideshow Global & Pengaturan Delay (detik) untuk kecepatan transisi antar gambar.
+  - **Kontak SPV Dinamis**: 
+    - Menampilkan daftar kontak SPV (Nama, Nomor HP, Lokasi Tugas) secara otomatis berdasarkan data User di database admin.
+    - Admin cukup mencentang opsi "Tampilkan Nomor HP" pada profil User (SPV) untuk memunculkannya di web tanpa perlu mengubah kode.
+  - **Konfigurasi Sosial Media**: Mengatur link Twitter, Instagram, dan Email resmi laboratorium.
+  - **Mode Tampilan (Display Mode)**: 
+    - Memilih antara mode **"Folder"** (pengelompokan per kategori) atau **"Direct"** (list semua link langsung).
+    - **Auto-fallback**: Sistem otomatis beralih ke mode Folder jika terdapat lebih dari satu kategori untuk menjaga kerapihan tampilan.
+
 ## 🛠️ Tech Stack
 
 - **Backend**: [Laravel 12](https://laravel.com/)
